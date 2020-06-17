@@ -1,0 +1,25 @@
+{
+  "name": "TestingCotalker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "./node_modules/.bin/cypress open",
+    "run": "./node_modules/.bin/cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulaAPR/TestingCotalker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulaAPR/TestingCotalker/issues"
+  },
+  "homepage": "https://github.com/PaulaAPR/TestingCotalker#readme",
+  "devDependencies": {
+    "cypress": "^4.8.0"
+  }
+}

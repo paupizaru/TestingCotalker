@@ -1,0 +1,7 @@
+/* Intellisense for Cypress coding and reference */
+{
+    "include": [
+        "./node_modules/cypress",
+        "cypress/**/*.js"
+    ]
+}
