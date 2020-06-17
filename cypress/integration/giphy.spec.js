@@ -8,6 +8,7 @@ describe('Cotalker website', () => {
         cy.route('POST', 'https://www.cotalker.com/auth/local').as('loginRequest');
         cy.route('GET', 'https://www.cotalker.com/api/users/me').as('loginResponse');
 
+
         /* Queremos que visite el sitio web */
         cy.visit('/');
         cy.get('@loginData')
@@ -25,17 +26,10 @@ describe('Cotalker website', () => {
         cy.url().should('include', '/c/g/summary');
     });
 
-    it('Send form', () => {
+    it('Get giphy', () => {
         cy.get('a[id="5ee3d5108c2ca200081664d4"]').click();
-        cy.get('.survey-button').click();
-        cy.get('.cont-textinput').type('TestPaula');
-        cy.get('.number').type(23);
-        cy.get(':nth-child(1) > .field > .field-button').click();
-        cy.get(':nth-child(3) > .field > .field-button').click();
-        cy.get('.mat-datepicker-toggle > .mat-icon-button').click();
-        cy.get('[aria-label="16 June 2020"] > .mat-calendar-body-cell-content').click();
-        cy.get('#mat-input-7').type(1500);
-        cy.get('.survey-content-send-button').click();
+        cy.get('.ng-touched > .cot-web-task-body-1 > .input-field')
+            .type('/giphy happy{enter}');
     });
 
 });
