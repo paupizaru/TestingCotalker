@@ -1,4 +1,9 @@
 {
     "baseUrl": "https://web.cotalker.com/login",
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
+    "env": {
+        "demoUser": "tester_83497@cotalker.com",
+        "demoPass": "demo83497",
+        "apiURL": "https://www.cotalker.com/auth/local"
+    }
 }

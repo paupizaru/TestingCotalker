@@ -8,7 +8,7 @@ Este proyecto es para automatizar dos pruebas de testing sobre el sitio de web.c
 
 Este proyecto fue realizado con la versión 12.16.2 de Node.js. Debe tener Node instalado.
 
-Se utilizó Cypress versión 4.8.0, se instala automáticamente con las dependencias del proyecto en npm install.
+Se utilizó Cypress versión 4.8.0, se instala automáticamente con las dependencias del proyecto.
 
 # Instalación y Ejecución
 
