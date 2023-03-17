@@ -1,8 +1,16 @@
-# Testing Cotalker Exercise
+# [ES] Testing Cotalker (Interview) Exercise [SPANISH ONLY]
 
-**Por Paula Pizarro Rubilar**
+**By Paula Pizarro Rubilar**
 
-Este proyecto es para automatizar dos pruebas de testing sobre el sitio de web.cotalker.com.
+# ATTENTION PLEASE
+
+It is important to clarify that this repository was created for testing purposes only, as an exercise of an interview process with Cotalker company.
+
+This repository was created in order to automate two tests in Cotalker's website. This was an interview exercise and as I was just learning automation with Cypress.io, these are not complete and obviously not developed in the best way to automate those two tests. Also, it is available in Spanish only. 
+
+I must declare that any data used on these tests are for testing usage only, and they may not serve for any other purpose.
+
+Thanks for understanding!
 
 # Requerimientos
 
